@@ -1,0 +1,26 @@
+:root {
+  --primary: rgb(242, 242, 242);
+  --secondary: rgb(16, 16, 22);
+  --tertiary: rgb(26, 97, 173);
+}
+
+[data-theme="dark"] {
+  --primary: rgb(15, 15, 23);
+  --secondary: rgb(238, 230, 230);
+  --tertiary: aqua;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transition: all .3s ease-in-out;
+}
+
+body {
+  background-color: var(--primary);
+  color: var(--secondary);
+  font-family: 'Inter', sans-serif;;
+  width: 100%;
+  height: 100vh;
+}
