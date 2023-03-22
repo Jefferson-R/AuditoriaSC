@@ -26,19 +26,19 @@ export function ChapterOne () {
         <br />
       </Text>
       <ContainerArticlesRefs>
-        <ArticleRef>
+        <ArticleRef idArticle={'1-1'}>
           Antecedentes de la auditoría
         </ArticleRef>
-        <ArticleRef>
+        <ArticleRef idArticle={'1-2'}>
           Conceptos básicos sobre la auditoría
         </ArticleRef>
-        <ArticleRef>
+        <ArticleRef idArticle={'1-3'}>
           Clasificación de los tipos de auditorías
         </ArticleRef>
-        <ArticleRef>
+        <ArticleRef idArticle={'1-4'}>
           Objetivos generales de la auditoría
         </ArticleRef>
-        <ArticleRef>
+        <ArticleRef idArticle={'1-5'}>
           Marco esquemático de la auditoría de sistemas computacionales
         </ArticleRef>
       </ContainerArticlesRefs>

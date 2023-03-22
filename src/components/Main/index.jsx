@@ -6,7 +6,7 @@ import './main.scss'
 
 export function Main () {
   return (
-    <div className="main">
+    <div id='main' className="main">
       <Header />
 
       <ChapterOne />

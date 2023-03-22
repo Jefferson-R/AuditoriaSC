@@ -1,0 +1,1 @@
+export function Article2_6 (){}

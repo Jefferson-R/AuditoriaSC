@@ -1,11 +1,16 @@
+import { useContext } from 'preact/hooks'
+import { currentArticleContext } from '../App'
 import { Text } from '../Text'
+import { showArticle } from './ArticleRef'
 import './articleRef.scss'
 
-export function ArticleRef ({link, children}) {
+export function ArticleRef ({idArticle, children}) {
+  const {setCurrentArticle} = useContext(currentArticleContext)
+
   return (
     <div className="linkContainer">
       <strong><Text>{children}</Text></strong>
-      <a href={link}><button><span>Leer más</span></button></a>
+      <button onClick={() => showArticle(idArticle, setCurrentArticle)}><span>Leer más</span></button>
     </div>
   )
 }

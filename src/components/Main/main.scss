@@ -1,4 +1,19 @@
 .main {
   width: 100%;
   height: 100%;
+  overflow-x: hidden;
+}
+
+.main-inactive {
+  animation: main-none 300ms linear forwards;
+  transform: translateX(-100%);
+}
+
+@keyframes main-none {
+  99% {
+    display: block;
+  }
+  100% {
+    display: none;
+  }
 }
