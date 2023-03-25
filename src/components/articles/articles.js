@@ -1,8 +1,10 @@
 const articles = {
-  plantillas: [
+  plantillasChatGPT: [
     'Puedes arreglar el siguiente texto:',
     'Haz un blog web en base al siguiente texto:',
-    'Decora el siguiente texto con negritas, cursivas y subrayados pero con etiquetas html, decora segun lo veas conveniente. Aqui el texto:'
+    'Decora el siguiente texto con negritas, cursivas y subrayados pero con etiquetas html, decora segun lo veas conveniente. Aqui el texto:',
+    'El tema es: . Resume y explica un poco en 4 parrafos minimo y escribe la respuesta como un copywriter. Aqui el texto:',
+    'El tema es: . Resume en 4 parrafos minimo y escribe la respuesta como un copywriter. Aqui el texto:',
   ],
 
   a1_1: {
@@ -146,7 +148,15 @@ const articles = {
     En ocasiones, la opinión del auditor tal vez no sea absoluta, debido a que, al laborar en la misma empresa donde realiza la auditoría, se pueden presentar presiones, compromisos y ciertos intereses al realizar la evaluación.
     
     Se pueden presentar vicios de trabajo del auditor con relativa frecuencia, ya sea en las formas de utilizar las técnicas y herramientas para aplicar la auditoría, como en la forma de evaluar y emitir su informe sobre la misma.
-    ` 
+    `,
+
+    blog: `
+    La auditoría es una disciplina profesional que se clasifica en diferentes tipos según el lugar y el área de aplicación en la que se lleve a cabo, así como por su especialización en áreas específicas, como la médica, la fiscal, la laboral, la de proyectos de inversión, entre otras. La clasificación por su lugar de realización se refiere a si la auditoría es interna o externa, y la segunda se basa en el área de aplicación, como la financiera, la operacional o la gubernamental, entre otras. La auditoría externa se caracteriza por ser realizada por auditores ajenos a la empresa, lo que les permite emitir resultados independientes, libres y sin influencias, y es muy demandada en el ámbito contable, fiscal y financiero de las instituciones.
+
+    Las auditorías externas son realizadas por grandes empresas y despachos independientes de auditores que gozan de prestigio y experiencia, utilizando técnicas y herramientas probadas en otras empresas con características similares. Sus dictámenes pueden ser válidos para las autoridades fiscales, siempre y cuando sean realizados por auditores de prestigio con reconocimiento público. Sin embargo, una de las principales desventajas es que el auditor tiene un conocimiento limitado de la empresa, lo que puede afectar la calidad de su evaluación. Además, su evaluación depende en gran medida de la cooperación que los auditados puedan brindarle, lo que puede resultar en evaluaciones, alcances y resultados limitados.
+    
+    En conclusión, la clasificación de los tipos de auditorías nos permite identificar los criterios, características y especificaciones de esta disciplina profesional, y elegir el tipo de auditoría que mejor se adapte a las necesidades de la empresa. La auditoría externa, al ser realizada por auditores ajenos a la empresa, se caracteriza por emitir resultados independientes y libres de influencias, lo que la hace muy demandada en el ámbito contable, fiscal y financiero de las instituciones. No obstante, es importante tener en cuenta sus limitaciones, como el conocimiento limitado de la empresa y la dependencia de la cooperación de los auditados para obtener información relevante.
+    `
   },
 
   a1_4: {
@@ -165,7 +175,17 @@ const articles = {
     
     Cabe aclarar que los objetivos antes enunciados son de carácter general. Sin embargo, pueden adecuarse al tipo de auditoría que se pretenda realizar. Es indispensable que antes de iniciar la evaluación de algún área, se establezcan de manera precisa los objetivos que se pretenden cubrir con esa auditoría, a fin de contar con su existencia, difusión y cumplimiento.
     
-    Debido a la importancia que tiene el objetivo en cada tipo de auditoría, en el siguiente capítulo se hace un enunciado específico de los principales objetivos de la propuesta de clasificación de auditoría que se mencionó en la sección 1.3 de este capítulo.    
+    Debido a la importancia que tiene el objetivo en cada tipo de auditoría, en el siguiente capítulo se hace un enunciado específico de los principales objetivos de la propuesta de clasificación de auditoría que se mencionó en la sección 1.3 de este capítulo.
+    `,
+
+    blog: `
+    La auditoría es un proceso fundamental que busca revisar de manera independiente y especializada el desempeño contable, financiero y operativo de una institución. Los objetivos generales de la auditoría incluyen evaluar la razonabilidad de las operaciones y resultados de una institución, así como verificar el cumplimiento de los planes, programas, políticas, normas y lineamientos que regulan su actuación.
+
+    Además, otro objetivo importante de la auditoría es emitir un dictamen profesional e independiente sobre el desempeño de una empresa, así como sobre el cumplimiento de sus objetivos y operaciones. Estos objetivos pueden adaptarse a los diferentes tipos de auditoría que se pretendan realizar, y es fundamental establecer de manera precisa los objetivos que se pretenden cubrir antes de iniciar la evaluación de algún área.
+    
+    Cabe destacar que los objetivos generales de la auditoría proporcionan las bases sobre las que se desarrolla este proceso, y son fundamentales para garantizar la transparencia y eficacia de las actividades de una empresa. Por lo tanto, es esencial que los auditores cuenten con una sólida comprensión de estos objetivos y los tengan en cuenta al realizar su trabajo, para asegurar la calidad y eficacia de sus evaluaciones.
+    
+    En el siguiente capítulo se abordarán los objetivos específicos de la propuesta de clasificación de auditoría mencionada anteriormente, lo que permitirá una mayor comprensión de las diferentes categorías de auditoría y de los objetivos que se persiguen en cada una de ellas.
     `
   },
 
@@ -213,6 +233,20 @@ const articles = {
     • Bases de datos
     • Administración de bases de datos
     • Diseño de bases de datos        
+    `,
+
+    blog: `
+    El marco esquemático de la auditoría de sistemas computacionales es una guía que permite la evaluación de los diferentes aspectos que integran un sistema de cómputo. Esta evaluación se divide en cuatro grandes rubros: hardware, software, gestión informática y administración de estándares de operación, programación y desarrollo.
+
+    En cuanto al hardware, se evalúa la plataforma de hardware, la tarjeta madre, los procesadores, los dispositivos periféricos, la arquitectura del sistema, las instalaciones eléctricas, de datos y de telecomunicaciones, así como las innovaciones tecnológicas de hardware y periféricos.
+    
+    Por otro lado, en el rubro de software se evalúa la plataforma del software, el sistema operativo, los lenguajes y programas de desarrollo, los programas de aplicación y bases de datos, las utilerías, bibliotecas y aplicaciones, el software de telecomunicación y otros tipos de software como juegos.
+    
+    En cuanto a la gestión informática, se evalúa la actividad administrativa del área de sistemas, la operación del sistema de cómputo, la planeación y control de actividades, los presupuestos y gastos de los recursos informáticos, la gestión de la actividad informática y la capacitación y desarrollo del personal informático.
+    
+    Por último, en el rubro de administración de estándares de operación, programación y desarrollo se evalúa la información, la administración, seguridad y control de la información, la salvaguarda, protección y custodia de la información, el cumplimiento de las características de la información, el diseño de sistemas, las metodologías de desarrollo de sistemas, los estándares de programación y desarrollo, la documentación de sistemas, las bases de datos y la administración de bases de datos.
+    
+    En conclusión, el marco esquemático de la auditoría de sistemas computacionales es una herramienta fundamental para garantizar que los sistemas de cómputo funcionen de manera óptima, segura y eficiente, y para identificar y corregir las debilidades y fortalezas de los diferentes aspectos que integran un sistema de cómputo.
     `
   },
 
@@ -243,6 +277,16 @@ const articles = {
     [...] y emitir un dictamen sobre el resultado de dicha evaluación.
 
     El informe final de una auditoría es el resultado de la misma, en el cual el auditor, con total libertad y profesionalismo, informa sobre los resultados obtenidos durante la revisión, fundamentándose en la aplicación de sus técnicas, herramientas y conocimientos de auditoría. Para ello, emite una opinión profesional e independiente, plasmada en un documento formal llamado dictamen, en el que se detallan las desviaciones y otros aspectos observados durante su evaluación para que los interesados conozcan el estado de las actividades y operaciones de la empresa o área auditada. Este es el objetivo final de la auditoría: emitir un dictamen profesional e independiente.
+    `,
+
+    blog: `
+    La auditoría es una revisión independiente que lleva a cabo un auditor profesional utilizando técnicas, métodos y procedimientos especializados para evaluar el cumplimiento de las funciones, actividades, tareas y procedimientos de una entidad administrativa, con el objetivo de emitir un dictamen sobre el resultado de dicha evaluación. Es esencial que el auditor tenga una completa independencia mental, profesional y laboral para actuar como un verdadero profesional al realizar cualquier tipo de evaluación, lo que garantiza la confiabilidad de un auditor.
+
+    La auditoría es una actividad altamente especializada que solo puede ser realizada por aquellos que tienen la capacitación profesional necesaria y los conocimientos, experiencia, actitudes y aptitudes necesarias para cumplir con los estándares requeridos por las empresas y la sociedad. En México, es un requisito indispensable que los auditores especializados en auditoría fiscal y contable tengan un título y una cédula profesional vigentes respaldados por colegios y asociaciones que respalden la calidad profesional requerida para esta actividad.
+    
+    La tarea principal del auditor es evaluar las funciones, actividades, tareas y procedimientos que se llevan a cabo en cualquier empresa o área administrativa para comprobar si se cumplen de manera adecuada. El informe final de una auditoría es el resultado de la revisión, en el que el auditor emite una opinión profesional e independiente, plasmada en un documento formal llamado dictamen, detallando las desviaciones y otros aspectos observados durante su evaluación para que los interesados conozcan el estado de las actividades y operaciones de la empresa o área auditada.
+    
+    Por último, cualquier profesional con un título universitario puede actuar como auditor, pero si carece de los conocimientos especializados necesarios para esta actividad, difícilmente podrá realizarla de manera eficaz y eficiente. Esto se debe a que no estaría familiarizado con las técnicas, métodos, procedimientos y herramientas especializadas requeridas, y aunque estuviera familiarizado con ellas, no podría utilizarlas eficazmente sin conocimientos profundos en estas áreas especializadas de su profesión original.
     `
   },
 
@@ -348,6 +392,16 @@ const articles = {
     •
     Realizar la evaluación de las áreas, actividades y funciones de una empresa, contando con el apoyo de los sistemas computacionales, los programas especiales para auditoría y la paquetería que sirve de soporte para el desarrollo de auditorías mediante la computadora.
     La presentación de los objetivos anteriores tiene el único propósito de que el lector conozca y compare los fines básicos que se pretenden alcanzar en cada tipo propuesto de auditoría, y que los tenga presentes al elegir los fundamentos básicos necesarios para hacer una revisión y, con ello, plantear los objetivos de la auditoría que requiera, buscando hacer una mejor evaluación del área que tenga que auditar.
+    `,
+
+    blog: `
+    La auditoría externa busca evaluar de manera independiente la institución auditada para emitir un dictamen externo sobre la razonabilidad de sus actividades, operaciones y resultados. Además, revisa el aspecto contable y las finanzas de las áreas de la empresa, y evalúa el cumplimiento de los planes, programas, políticas, normas y lineamientos que regulan las funciones de la institución.
+
+    Por otro lado, la auditoría interna se lleva a cabo con personal que trabaja en la empresa y tiene como objetivos realizar una evaluación independiente dentro de la institución donde se trabaja, para ayudar a evaluar la actuación de la gestión administrativa. Además, se realiza una revisión interna del área contable, de las finanzas y del control interno de las áreas de una empresa, se evalúa el cumplimiento de los planes, programas, políticas, normas y lineamientos que regulan la actuación de cada uno de los integrantes de una institución, y se dictamina en forma interna sobre las actividades, operaciones y funciones que se realizan en una empresa.
+    
+    En cuanto a la auditoría financiera, se enfoca en evaluar la actuación financiera y contable de las empresas, así como sus resultados financieros. Sus objetivos son evaluar de manera independiente las operaciones financieras de una institución, revisar las actividades financieras y de las operaciones y registros contables de las áreas de una empresa, evaluar el cumplimiento de los planes, programas, políticas, lineamientos y normas que regulan las actividades financieras de una institución, vigilar el ejercicio y cumplimiento de los planes, presupuestos y programas de inversión de una empresa, y revisar los estados financieros que se presentan ante las autoridades fiscales y terceros para evaluar su correcta elaboración.
+    
+    Finalmente, la auditoría operacional busca evaluar la eficiencia y eficacia de los procesos, sistemas y actividades de una institución para mejorar su funcionamiento y desempeño. Sus objetivos son evaluar de manera independiente la eficacia y eficiencia de los sistemas de control interno, evaluar la calidad de los controles establecidos para asegurar la salvaguarda de los recursos y evaluar el cumplimiento de los planes, programas, políticas, lineamientos y normas que regulan las actividades de la institución.
     `
   },
 
@@ -398,6 +452,16 @@ const articles = {
     Esta auditoría se enfoca en determinar las áreas, actividades y/o eventos especiales que serán evaluados dentro de una empresa. Estos aspectos estarán definidos por las necesidades particulares de revisión de la empresa y las operaciones que requieran una evaluación mediante una auditoría especial, no considerada dentro de los aspectos anteriores. Es importante señalar que los aspectos a evaluar serán establecidos de acuerdo con las necesidades concretas de la empresa y áreas donde se ejecutará la auditoría. Además, el auditor que realizará la auditoría debe tener experiencia, conocimientos y especialidad en el área a auditar.
     
     Cabe aclarar que los puntos anteriores son únicamente enunciativos y su propósito es que el lector pueda identificar los principales aspectos que deben examinarse dentro de las actividades de cualquier tipo de auditoría. Insistimos en que el propósito de estos puntos es que el lector pueda comprender la existencia e importancia de los aspectos ya mencionados, a fin de trasladarlos a la auditoría de sistemas computacionales, la cual se abordará en los siguientes capítulos.
+    `,
+
+    blog: `
+    Las principales áreas, funciones, operaciones, resultados y actividades de una empresa o unidad administrativa que se pueden auditar. Los puntos planteados son útiles como punto de partida para cualquier tipo de auditoría, aunque se pueden ampliar de acuerdo con las necesidades específicas de la revisión. La finalidad es que el auditor cuente con un marco de referencia para aplicar la auditoría de manera correcta, utilizando las técnicas, procedimientos y herramientas adecuados para emitir un dictamen confiable con los resultados de la revisión.
+
+    Entre las principales áreas que se pueden auditar, se incluyen la evaluación de los estados financieros y operaciones contables, donde se revisa el cumplimiento de las normas contables y se verifica la correcta emisión de los resultados financieros alcanzados durante un periodo específico, de acuerdo con las leyes y regulaciones vigentes. También se puede realizar una evaluación de los objetivos, planes, programas y presupuestos, así como de la estructura organizacional, funciones, perfil de puestos, líneas de autoridad y comunicaciones.
+    
+    Otra área importante es la evaluación de la administración de los recursos humanos, que incluye la selección, capacitación, adiestramiento y obligaciones de los trabajadores, la definición de sus funciones y tareas, los contratos laborales, así como los aspectos sindicales, normas y reglamentos que regulan las relaciones laborales. Además, se puede auditar la administración de las prestaciones, impuestos y obligaciones fiscales de la empresa y sus funcionarios, así como de sus bienes y activos.
+    
+    Por último, también se puede realizar una evaluación de las normas, políticas, métodos y procedimientos de operación de la empresa, a fin de determinar el buen desempeño de sus labores y cumplimiento de sus objetivos. En resumen, esta propuesta de áreas a auditar permite al auditor tener una guía para determinar las evaluaciones que debe realizar, ampliando los puntos planteados según las necesidades específicas de cada revisión.
     `
   },
 
@@ -493,6 +557,16 @@ const articles = {
     • Para la presentación del informe de auditoría
     • Para el dictamen y opinión del auditor
     • Para la aplicación de las normas y principios de auditoría
+    `,
+
+    blog: `
+    Las normas generales de auditoría son emitidas por asociaciones de profesionales para que los practicantes de esta profesión conozcan y cumplan con estas normas en el desarrollo de cualquier tipo de auditoría. En la actualidad, existen muchas asociaciones de profesionales dedicados a la contabilidad y la ingeniería financiera que emiten normas aplicables a la auditoría financiera y contable. A pesar de que aún no se sabe de asociaciones de auditores de sistemas, informática o disciplinas similares, las asociaciones de contadores y licenciados en administración, y ocasionalmente por asociaciones de auditores internos, se han dado tímidamente intentos por normalizar sus acciones.
+
+    Las normas generales de auditoría emitidas por la AICPA establecen que la auditoría debe ser realizada por personal que cuente con la capacitación técnica adecuada y la competencia para ejercer como auditor. El auditor debe conservar una actitud mental independiente en todos los aspectos, ser diligente en la presentación de los resultados de su auditoría y la evidencia que soporte el informe del auditor debe ser suficiente, competente y oportuna, mediante las técnicas, métodos y procedimientos de auditoría.
+    
+    El IMCPAC, una asociación de profesionales en México, ha emitido una serie de normas, principios y criterios relacionados con la auditoría, principalmente de carácter contable y financiero. Las normas personales de auditoría establecen que los auditores deben contar con entrenamiento técnico y capacidad profesional, cuidado y diligencia profesional e independencia. Las normas de ejecución del trabajo establecen que se debe planificar y supervisar cabalmente, se debe entender el control interno en estructura y contenido y la evidencia que soporta el informe del auditor debe ser suficiente y competente. Las normas de información establecen que el informe de la auditoría debe presentarse en estricto apego a las normas de auditoría y contabilidad generalmente aceptadas y los informes de auditorías financieras deberán contener la opinión razonada del auditor.
+    
+    En general, todas las normas de auditoría establecen que los auditores deben ser independientes, tener integridad profesional, mantener el control interno, obtener y evaluar evidencia suficiente y competente y tener un rango de conocimiento completo, buen conocimiento o conocimiento adecuado.
     `
   },
 
@@ -530,6 +604,18 @@ const articles = {
     • Matriz de evaluación
     • Programas de verificación
     • Seguimiento de programación
+    `,
+
+    blog: `
+    La auditoría es un proceso de evaluación de los registros financieros, contables y operativos de una organización para asegurar su exactitud y cumplimiento con las normas y regulaciones. Los métodos, técnicas, herramientas y procedimientos utilizados por los auditores se pueden dividir en tres grupos: instrumentos de recopilación de datos, técnicas de evaluación y técnicas especiales para la auditoría de sistemas computacionales.
+
+    Los instrumentos de recopilación de datos incluyen entrevistas, cuestionarios, encuestas, observación, inventarios, muestreo y experimentación. Estas herramientas se utilizan para obtener información y datos relevantes para la auditoría de los sistemas.
+    
+    Las técnicas de evaluación incluyen el examen, la inspección, la confirmación, la comparación y la revisión documental. Estas técnicas se utilizan para verificar la exactitud y la validez de los datos y la información recopilados durante la auditoría.
+    
+    Las técnicas especiales para la auditoría de sistemas computacionales incluyen guías de evaluación, ponderación, simulación, evaluación, diagrama del círculo de sistemas, diagramas de sistemas, matriz de evaluación, programas de verificación y seguimiento de programación. Estas técnicas se utilizan específicamente en la auditoría de sistemas informáticos para evaluar la eficacia y la seguridad de los sistemas.
+    
+    En resumen, los auditores utilizan una variedad de herramientas y técnicas para realizar una auditoría completa y precisa. La selección de herramientas y técnicas depende del tipo de auditoría y de los sistemas que se están auditando.
     `
   },
 
@@ -608,6 +694,18 @@ const articles = {
     • Apoyo secretarial
     
     También conviene aclarar que la propuesta de niveles de organización de auditoría interna puede ser modificada de acuerdo con las necesidades y características de la institución, a los requerimientos de atención de sus áreas, a su tamaño, giro y actividades, o por cualquier otro tipo de criterio que le permita hacer una evaluación adecuada.
+    `,
+
+    blog: `
+    La estructura organizativa de las empresas y las áreas de auditoría es fundamental para asegurar la eficiencia y efectividad de los procesos de auditoría. En México, existen diversas propuestas de organización para clasificar estas estructuras, las cuales se dividen en dos grupos.
+
+    El primer grupo se enfoca en las empresas de auditoría externa, y se clasifica en tres grandes categorías según el tamaño de la empresa. Para adecuarse a las necesidades de la empresa, se proponen niveles de puestos que incluyen desde directores o gerentes generales, hasta auditores junior y apoyo administrativo y secretarial.
+    
+    El segundo grupo se enfoca en las empresas que cuentan con áreas de auditoría interna, y se ubican tres tipos de áreas de auditoría interna dentro de las empresas, tomando en cuenta el tamaño de la institución y el número de empleados que haya en el área de auditoría interna.
+    
+    Es importante destacar que los niveles de estructura propuestos son indicativos para la organización de cualquier empresa dedicada a la auditoría externa o interna, y pueden ajustarse a las necesidades específicas de la institución, tales como las especialidades de su personal, las necesidades de sus clientes o cualquier otro criterio que le ayude a evaluar sus funciones, actividades u operaciones.
+    
+    En conclusión, la estructura organizativa es fundamental para garantizar la calidad de los procesos de auditoría. En este sentido, las propuestas de organización presentadas son una guía para las empresas y áreas de auditoría que buscan mejorar su eficiencia y efectividad en la realización de sus actividades.
     `
   },
 
@@ -683,6 +781,16 @@ const articles = {
     Doctrina ética existencialista: Esta corriente se enfoca en la libertad y la responsabilidad individual. Los filósofos existencialistas sostienen que cada individuo es libre para tomar decisiones y dar sentido a su vida, y que se debe asumir la responsabilidad de dichas decisiones. Se destaca la figura de Jean-Paul Sartre.
     
     Doctrina ética pragmática: Esta corriente se enfoca en la utilidad y la consecuencia de las acciones. Para los pragmáticos, la moralidad se basa en la búsqueda del bien común y se debe actuar de acuerdo a la consecuencia de las acciones. Se destaca la figura de John Dewey y William James.
+    `,
+
+    blog: `
+    El marco conceptual de la ética es fundamental para comprender su importancia en el comportamiento humano. Para comenzar, es necesario identificar las definiciones y conceptos básicos que se han vertido en torno a la ética, para luego analizar las principales corrientes y autores del pensamiento filosófico sobre esta materia. Una vez que se tengan estas bases conceptuales, se pueden identificar los principales valores y deberes éticos, criterios y responsabilidades, normas y obligaciones que el profesional de auditoría debe respetar al ejercer su profesión.
+
+    La ética se relaciona con las normas de conducta de carácter social, jurídico, profesional y religioso que regulan la actuación del hombre en la sociedad. El profesional dedicado a la auditoría debe conducirse de acuerdo con estas normas de conducta para regular su actuación como profesional ante la sociedad, autoridades, empresas y empleados.
+    
+    Sin embargo, la conceptualización de ética va más allá de estas definiciones. La ética es la ciencia de la conducta que estudia reflexivamente el fundamento de la conducta moral. Desde el principio de la vida social del hombre, se crea en él una conciencia normativa que le indica cuáles son los caminos adecuados que lo conducirán a convivir y obtener los logros que se proponga, como la felicidad, la perpetuación de la especie, entre otros.
+    
+    En resumen, el estudio del marco conceptual de la ética es esencial para comprender las bases y fundamentos que rigen la conducta humana. Los valores, deberes éticos, criterios, responsabilidades, normas y obligaciones que rigen al profesional de auditoría son parte de la ética, que estudia reflexivamente el fundamento de la conducta moral del hombre y su papel en la sociedad.
     `
   },
 
@@ -739,61 +847,13 @@ const articles = {
 
     Principales valores y virtudes de José Armando Estrada Parra:
     
-    La veracidad: Es la capacidad que tiene el individuo para expresarse con acierto y honradez en la opinión que emite de un suceso, buscando acercarse siempre a la verdad de lo que narra o interpreta.
-    La comprensión: Es el conocimiento perfecto de las circunstancias de la persona cuyos problemas se desean entender, adentrándose en su vivencia.
-    La tolerancia: Es la capacidad para ser indulgente con la manera de pensar, sentir y actuar de los demás, aunque esta manera de pensar sea diferente a la nuestra, condescendiendo con ellos al saber escucharlos y comprenderlos.
-    La bondad: Aunque es de los valores que se consideran de mayor jerarquía, es de los más difíciles de explicar, aunque es fácil de entender intuitivamente. Calidad de lo bueno, indica el diccionario; pero representa la cualidad de no sólo actuar con bondad, sino de actuar además con bien.
-    El respeto: Es reconocer y considerar que todos los individuos tienen derechos, opiniones, criterios y privilegios, a fin de vivir en armonía y comprensión con nuestros semejantes.
-    La valentía: Entendida como arrojo, ánimo, es propiamente lo que se encuentra entre los extremos, por un lado el arrojo irreflexivo, temeridad y por otro la cobardía; esta virtud está acompañada de un control sobre los actos.
-
-    La templanza
-    Moderar los apetitos, las acciones, sentimientos y deseos, a fin de actuar con madurez y serenidad ante las circunstancias que se presentan. También se considera una de las virtudes cardinales del cristianismo.
-    
-    La justicia
-    Es la constante y permanente voluntad de dar a cada quien lo que le corresponde, actuando con equidad e imparcialidad. También es una de las virtudes cardinales.
+    La veracidad, La comprensión, La tolerancia, La bondad, El respeto, La valentía, La templanza, La justicia.
     
     Principios y valores del auditor
     
     Los siguientes son los aspectos fundamentales que debe poseer el profesional que quiera dedicarse a la actividad de auditoría, a fin de que identifique y cumpla los requisitos que le marca la sociedad para realizar esta función.
     
-    Honestidad
-    Se dice de quien actúa con veracidad, sinceridad, franqueza, honradez e imparcialidad en el cumplimiento de cualquier encomienda, actividad o trabajo. En el caso del auditor, es el cabal cumplimiento de cada una de estas cualidades, con lo cual proporciona la garantía de calidad profesional y moral que demandan de esta actividad las empresas y personas.
-    
-    Integridad
-    La persona que posee esta cualidad es de principios sólidos y fundamentales y actúa en forma honorable, recta, valerosa y se apega a sus convicciones, cualesquiera que estas sean, y las hace respetar; lo mismo sucede con el cumplimiento de los compromisos, trabajo y actividades que se le encomiendan. Está claro que el profesional que actúa como auditor debe poseer estas cualidades.
-    
-    Cumplimiento
-    Se dice que una persona es cumplida y digna de confianza, cuando cumple escrupulosamente sus promesas, sus compromisos y respeta la esencia y letra de los convenios que contrae. Es obvio que el auditor que desea poseer esta cualidad debe actuar conforme se indica en este punto, ya que será lo que le ayudará a realizar cabalmente sus actividades.
-    
-    Lealtad
-    Es la cualidad que caracteriza a quien es noble, recto, honesto y honrado con su familia, sus amigos, patrones, clientes y con su país, respetando sobre casi todas las cosas una adhesión y constancia con quienes le unen lazos de amistad, amor o profesionalismo. En el caso del auditor, además del cabal respeto a lo anterior, también se considera que es la fidelidad que guarda para con sus auditados, no utilizando ni revelando información que obtiene en forma confidencial de la empresa que audita. En el contexto profesional, también se entiende como la emisión de juicios independientes, profesionales y apegados a lo que detectó en su evaluación, evitando cualquier influencia indebida y conflicto de intereses.
-
-    Imparcialidad
-    La imparcialidad se refiere a cuando una persona, en este caso el auditor, busca actuar de manera equitativa en el cumplimiento de su trabajo o de cualquier acción que emprende. Trata de ser siempre justo, honesto y razonable en los juicios que emite, evitando tomar partido hacia algún lado en cualquier auditoría. Además, como profesional de la auditoría, siempre debe estar dispuesto a reconocer errores y a cambiar de posición, creencia y acciones cuando sea necesario. Debe procurar actuar siempre con un amplio compromiso de justicia, equidad, tolerancia y trato igual con los funcionarios y empleados que audite. Lo mismo se aplica a otros profesionales.
-    
-    Respeto a los demás
-    El respeto a los demás es la cualidad que caracteriza a quien demuestra consideración y estima por la dignidad, la intimidad y el derecho de autodeterminación de las personas. Al actuar siempre de manera cortés, expedita y decente, proporciona lo que necesitan para la mejor toma de decisiones sin avergonzarles ni degradarles. Esto es lo que debe hacer el auditor, independientemente del puesto y posición que representa para las empresas.
-    
-    Ciudadano responsable
-    El término "ciudadano responsable" se refiere a la persona, en este caso el auditor, que está dispuesta a respetar y hacer cumplir las leyes, normas y reglamentos del país. Al aceptar la responsabilidad y solidaridad tanto en los derechos como en las obligaciones, que le imponen la sociedad, las empresas y sus conciudadanos. Esta persona respeta los principios y reglas que regulan las relaciones laborales, morales, comerciales, sociales y de cualquier otro tipo, y también evita y, en su caso, protesta contra las injusticias.
-    
-    Ver por los demás
-    Cuando una persona es atenta y amable en su trato, compartida, generosa y tiene un amplio sentido de ayuda hacia sus semejantes, se dice que esa persona ve por los demás. Esta es una de las principales funciones que debe cumplir el auditor. Como su actividad fundamental es auditar (en este caso evaluar el trabajo de jefes y empleados), siempre estará en contacto con los demás, pero desde una posición de supervisión. Por esta razón, debe tener un trato amable, cortés y justo con los que audita. Si es posible, debe ubicarse en el lugar de los demás para tratar de comprender sus reacciones.
-    
-    Búsqueda de la excelencia
-    Es evidente que las personas de éxito, así como los auditores profesionales destacados, son aquellos que buscan la excelencia (que sobresalen en mérito y bondad) como parte fundamental de su ser. Cumplen indefectiblemente con la responsabilidad personal y profesional que requiere esta importante actividad. Estas personas procuran, en todas sus acciones, ser siempre diligentes, confiables, trabajadoras y comprometidas con el servicio que prestan a las empresas. Realizan su trabajo, en este caso la evaluación de las áreas que auditan, lo mejor que pueden. También tienen un alto grado de competencia, capacitación y conocimientos relacionados con la auditoría, los cuales les ayudan a realizar con mayor efectividad y eficiencia su actividad profesional.
-
-    Responsabilidad
-
-    Se entiende como responsabilidad el hecho de aceptar el compromiso que implica la toma de decisiones y las consecuencias previstas por las acciones y omisiones en el cumplimiento del trabajo, de las actividades cotidianas y del desempeño profesional. En el caso específico del auditor, con la evaluación que realiza y con el dictamen que emite, adquiere el compromiso ineludible de una actuación profesional, aceptando plenamente las consecuencias de su actuación personal.
-    
-    Confiabilidad
-    
-    Ésta es una de las cualidades más buscadas en el profesional que se dedica a la auditoría, ya que se asume que su actuación está apegada a las normas y criterios que regulan esta profesión (ánimo de hacer las cosas con rectitud). Por esta razón, el auditado puede confiar en que el auditor aplicará las herramientas y métodos necesarios para realizar la auditoría y, derivado de ello, confía en la capacidad profesional de dicho auditor y acepta los juicios que emite.
-    
-    Veracidad
-    
-    Derivada de "veraz" (el que dice o profesa la verdad), se confiere veracidad a quien actúa con la suficiente honestidad, experiencia y conocimientos en su ramo, para emitir opiniones y juicios que estén avalados por una confianza en lo que dice, contando con que su actuación siempre será apegada a la verdad. En el caso del auditor, se refiere a la utilización de herramientas, métodos y procedimientos de auditoría, con los cuales puede obtener datos fidedignos, apegados a los sucesos verdaderos y con resultados reales, que le permiten hacer juicios fidedignos y confiables. Por esta razón, se le otorga al auditor, o a cualquier persona, la confianza de que está actuando con suma veracidad.
+    Honestidad, Integridad, Cumplimiento, Lealtad, Imparcialidad, Respeto a los demás, Ciudadano responsable, Ver por los demás, Búsqueda de la excelencia, Responsabilidad, Confiabilidad, Veracidad.
     
     Principios y valores según alumnos de la UVM San Rafael
     
@@ -801,31 +861,17 @@ const articles = {
 
     En estas aportaciones, se mencionan únicamente los aspectos señalados por los alumnos, quedando a juicio del lector aceptarlos, rechazarlos y, en su caso, adaptarlos a las características propias del área y empresa que aplica la auditoría.
 
-    Integridad familiar:
-    Es un gran sentimiento que aún se conserva entre los mexicanos, en el cual se le da el más alto valor a la integridad familiar, a la conservación y respeto hacia los vínculos familiares que nos unen a nuestros parientes. Es una tradición mediante la cual se conserva dicha unión de padres a hijos, e incluso se hace extensiva hacia los abuelos, tíos, sobrinos, primos y otros parientes. Éste se considera como uno de los valores fundamentales del pueblo mexicano. Este valor se conserva y se aprende por medio de la transmisión familiar, mediante la cual se heredan las costumbres y tradiciones que mantienen vigentes los lazos de unión familiar, base de los principios morales y éticos de la sociedad.
-    
-    Creencia religiosa:
-    Otro de los más altos valores que conservan los conciudadanos es una firme creencia en la religión, principalmente en la católica, aunque también existen otras con muchos creyentes. Esto ayuda a establecer, difundir y preservar las normas y principios morales (básicamente de tipo religioso) que regulan la conducta del individuo ante la sociedad.
-    
-    Ingenio:
-    Es la capacidad generalizada de adaptarse fácilmente a los problemas cotidianos, mediante la cual se pueden resolver, o por lo menos sobrellevar, casi todas las situaciones conflictivas que se les presentan a las personas. También se dice de la capacidad de responder a los retos y frases dicharacheras de sus congéneres, que provocan hilaridad. Es una cualidad que aún se transmite, conserva y en mucho ayuda a realizar mejor el trabajo, cualquiera que este sea.
-    
-    Valor:
-    Es la capacidad de afrontar con valentía, atrevimiento y dignidad las situaciones y problemas que se presentan cotidianamente. Esta cualidad ayuda a realizar cualquier actividad que se emprende. En el caso de los auditores, es la valentía para actuar en la evaluación y emisión de los resultados de su revisión.
-    
-    Honradez:
-    Es la actitud que hace que la persona proceda con rectitud e integridad ante los demás, y que sea incapaz de tomar algo que no le corresponde. En el caso del auditor, es uno de los requisitos fundamentales para su actuación profesional.
-
-    Responsabilidad:
-    Es la plena aceptación de responder ante los demás por las acciones, actividades y omisiones que se realizan, así como por las decisiones que se toman, aceptando sus consecuencias y beneficios. En el caso del auditor, se refiere a la plena aceptación de las acciones y actividades que realiza y de las decisiones que toma como parte de su actuación profesional.
-    
-    Lealtad:
-    Se dice de la cualidad que tiene aquel que es sincero, honrado y fiel con los demás y consigo mismo. Es decir, aquel que guarda fidelidad a una persona o a una cosa, y que actúa respetando los bienes y acciones de los demás. En el caso del auditor, es la fidelidad que guarda con sus auditados, respetando invariablemente la información, bienes y resultados que obtiene de una evaluación, sin utilizar para sí o para terceros los datos que obtiene en dicha evaluación.
-    
-    Patriotismo:
-    Es la procuración del bienestar y la conservación de los valores nacionales, los cuales son vínculo de unión entre las naciones, los pueblos y los individuos.
+    Integridad familiar, Creencia religiosa, Ingenio, Valor, Honradez, Responsabilidad, Lealtad, Patriotismo.
     
     Los anteriores son algunos de los muchos principios y valores que debe poseer el auditor dedicado al área de sistemas computacionales. Sin embargo, el lector tiene plena libertad para aumentar, eliminar o modificar algunos de los aspectos antes expuestos. Lo importante es que capte la esencia de estas aportaciones en la actuación de un auditor profesional.
+    `,
+
+    blog: `
+    La axiología es la ciencia que estudia los valores, especialmente los valores morales. Los valores son cualidades que dan pautas al valor filosófico que pretende alcanzar el ser. Los valores tienen características como la objetividad, la dependencia, la polaridad y la cualidad. Estos valores tienen una jerarquía establecida según su importancia, y este orden se modifica según quien los clasifica.
+
+    Max Scheler y Nicolai Hartmann, iniciadores de la axiología de Scheler, proponen la materialidad y objetividad de los valores, oponiéndose al formalismo de Kant. Para Scheler, los valores se conocen por medio de la intuición, y no son accesibles a la razón. Scheler clasifica los valores en cuatro categorías jerárquicas: valores de lo agradable y lo desagradable, valores de lo vital y lo antivital, valores espirituales y no espirituales, y valores religiosos y profanos.
+    
+    En cuanto a los valores éticos, el auditor de sistemas debe considerar y acatar los valores ético-morales regulados mediante la axiología, ya que como parte de una sociedad, su conducta debe estar en línea con los valores de carácter moral que pretenden normar la conducta de los individuos ante la sociedad. Por lo tanto, es importante que los auditores de sistemas se adhieran a estas normas éticas en su trabajo diario para asegurar su integridad y la de las empresas que auditan. En resumen, la axiología y los valores éticos son fundamentales para garantizar la correcta actuación de los auditores de sistemas y asegurar el cumplimiento de los valores morales y éticos en la sociedad.
     `
   },
 
@@ -865,6 +911,16 @@ const articles = {
 
     Criterios y responsabilidades del auditor en la presentación de resultados a terceros:
     El auditor tiene la responsabilidad de presentar de manera clara, objetiva y concisa los resultados de su trabajo a terceros interesados, como pueden ser los accionistas, los administradores, los reguladores y los prestamistas. Estos resultados deben estar respaldados por los elementos de juicio suficientes y adecuados para que los usuarios puedan tomar decisiones informadas sobre la situación financiera de la empresa auditada.
+    `,
+
+    blog: `
+    Los criterios y responsabilidades del auditor son fundamentales para asegurar la integridad, la independencia y la eficacia de la auditoría. Estos criterios incluyen aspectos éticos-morales, profesionales-personales, laborales, de elementos de juicio y de cumplimiento legal y normativo.
+
+    El auditor debe mantener una conducta ética y moral irreprochable, asegurando su independencia y objetividad en todo momento. Debe contar con los conocimientos y habilidades necesarias para llevar a cabo su trabajo de manera efectiva, manteniendo una actitud colaborativa y proactiva con la empresa auditada. También debe cumplir con los horarios y plazos establecidos, mantener una actitud profesional y una comunicación clara y efectiva con la empresa auditada.
+    
+    El auditor debe contar con elementos de juicio suficientes y adecuados para poder realizar una evaluación efectiva, llevando a cabo un análisis detallado y exhaustivo de la información disponible. Asimismo, debe cumplir con todas las leyes, normas y regulaciones aplicables a su trabajo, brindando una respuesta adecuada y oportuna ante cualquier situación legal o fiscal que pudiera surgir durante su trabajo. Finalmente, el auditor tiene la responsabilidad de presentar de manera clara, objetiva y concisa los resultados de su trabajo a terceros interesados.
+    
+    En resumen, los criterios y responsabilidades del auditor son fundamentales para asegurar la integridad y la calidad de la auditoría, y deben ser tomados en cuenta por el auditor en todo momento para asegurar la eficacia y la ética de su trabajo.
     `
   },
 
@@ -934,53 +990,19 @@ const articles = {
     
     Estas definiciones son las que regulan la actuación del auditor dentro de su ambiente social y laboral. El análisis de estas normas se realizará de la manera siguiente:
     
-    Acatar las normas y obligaciones de carácter social
+    Acatar las normas y obligaciones de carácter social, Respetar a las autoridades, leyes, normas y reglamentos, Evitar y prevenir sobornos, componendas y dádivas, Contar con una opinión profesional y defenderla, Emitir un dictamen con firma profesional, Contar con apoyo didáctico y normativo vigente, 
     
-    Con base en las definiciones anteriores, al convivir con un grupo de personas dentro de un núcleo de la sociedad, el auditor debe regir su conducta con las normas y lineamientos que regulan la actuación de cualquier profesional. Estas normas y obligaciones sociales, que por lo general no están establecidas por escrito, son las que determinan la actuación de este tipo de profesionales y en general de toda la sociedad.
-    
-    Respetar a las autoridades, leyes, normas y reglamentos
-    
-    Dentro de las enseñanzas de carácter social que desde pequeños se nos inculcan en la familia y en la sociedad, se encuentra el aprendizaje del civismo, por medio del cual se nos enseña a respetar y acatar, entre otras cosas, lo determinado por las normas, leyes y reglamentos que regulan el comportamiento de las personas que cohabitan dentro de un conglomerado social; también se nos inculca el respeto a las autoridades y disposiciones sociales. Es requisito de carácter social que el auditor sepa respetar y hacer cumplir las disposiciones y normas emanadas de las autoridades que regulan su actividad profesional, tanto en su actuación con las empresas que audita como con las personas que trata en la realización de una auditoría.
+    Normas de comportamiento ético y moral: Ser incorruptible e insobornable, Ser imparcial en los juicios que emite como auditor, Contar con un juicio sereno, ético y moral, Acatar y hacer cumplir las normas morales y éticas.
+    `,
 
-    Evitar y prevenir sobornos, componendas y dádivas
+    blog: `
+    Las normas profesionales del auditor son un conjunto de criterios y responsabilidades que regulan la actuación de los auditores, estableciendo aspectos sobresalientes de su desempeño. Dichas normas son de aplicación general y de acatamiento obligatorio para estos profesionales. A su vez, existen normas que son obligatorias para un auditor, las cuales en muchos casos están reguladas y su incumplimiento conlleva una sanción. Estas normas y lineamientos se apoyan en la experiencia profesional y están reguladas por organismos específicos.
 
-    Es requisito indispensable, sin admitir ninguna variación al respecto, que el auditor prevenga y evite cualquier tipo de soborno, componenda o dádiva que pudieran resultar de su actividad profesional; estos términos se definen como sigue.
+    Estas normas se dividen en tres grupos: las normas permanentes de carácter profesional, las normas de carácter social y las normas de comportamiento ético-moral. Las normas permanentes de carácter profesional son aquellas que debe cumplir invariablemente el auditor y su personal, para mantener su prestigio y credibilidad en las empresas donde realizan evaluaciones. Estas normas incluyen la emisión de una opinión responsable y profesional, la disciplina profesional, la guarda del secreto profesional y la independencia mental.
     
-    Sobornar: "Corromper a alguien con dinero, regalos u otro medio para conseguir algo de él." (Del latín "Sobornare". Excitar, incitar, corromper. Corromper a uno con dádivas para conseguir de él una cosa.)
-    Componenda: "[...] Chanchullo, solución indigna."
-    Ser leal con los auditados
+    La emisión de una opinión responsable y profesional respaldada en evidencias comprobadas es fundamental para que la auditoría sea válida. La disciplina profesional es necesaria para mantener una actuación permanentemente profesional en el aspecto laboral y personal. La guarda del secreto profesional es obligatoria para mantener la confidencialidad de la información que se maneja durante la auditoría. La independencia mental es esencial para que el auditor tenga la aptitud, competencia y objetividad necesarias para su trabajo.
     
-    Un requisito indispensable para el auditor, también de comportamiento social, ético, profesional y moral, es que debe ser leal con las empresas que audita y con el personal que labora dentro de ellas. No es válido ni profesional ser desleal con quienes se audita. Además, cumplir con esta obligación, en mucho le ayuda a fundamentar sus relaciones con las empresas, con sus colegas y con la sociedad en general.
-    
-    Contar con una opinión profesional y defenderla
-    
-    Al emitir el informe de una auditoría y plasmar su opinión en un dictamen, el auditor demuestra a la sociedad que tiene una opinión personal, la cual fundamenta en la aplicación de sus técnicas, métodos y procedimientos de auditoría, misma que defiende por medio de su opinión profesional, la cual está cimentada por las evidencias que obtiene al realizar su trabajo; eso es lo que espera la colectividad de este profesional. Por esta razón, la comunidad le confiere al auditor una gran calidad moral, social y profesional, ya que da por hecho que su actuación está apegada a una estricta ética profesional y personal, la cual demuestra con la opinión que emite y defiende.
-    
-    Emitir un dictamen con firma profesional
-    
-    La sociedad, las autoridades y los responsables de las empresas auditadas reclaman que el informe que emite el auditor esté respaldado por una firma profesional, ya sea de una empresa que avale su actuación o la del propio auditor. Este profesional debe estar avalado y certificado por las autoridades y asociaciones de profesionales del ramo para ejercer esta actividad.
-    
-    Contar con apoyo didáctico y normativo vigente
-    
-    Para ejercer la profesión de auditor, también es requisito contar con el apoyo didáctico y normativo que esté vigente en esta actividad, ya que la sociedad, las empresas y sus ejecutivos y empleados reclaman que al realizar esta actividad, el auditor cuente con la capacitación y conocimientos más adelantados y vigentes de su profesión.
-
-    Normas de comportamiento ético y moral
-
-    Aunque ya fueron señaladas como las obligaciones y responsabilidades de carácter ético y moral que debe cumplir el auditor, a continuación vamos a analizar, desde la óptica del aspecto profesional, las normas de conducta que como profesional debe acatar el auditor, dentro de un estricto sentido ético y moral; dichas normas son las siguientes.
-    
-    Ser incorruptible e insobornable
-    
-    Ya señalamos en las normas de carácter social que es requisito indispensable, sin admitir ninguna variación al respecto, que el auditor sea insobornable e incorruptible y que no haya ninguna duda respecto a su actuación en la evaluación que está realizando. Esta cualidad moral, más que norma y obligación, es la que da la confianza en la actuación de un profesional de la auditoría. Alterar en algo el informe de la auditoría para minimizar, no informar o modificar lo encontrado en una evaluación no es una actitud ética del auditor, mucho menos moral ni profesional. Si esta actitud se deriva de sobornos, corruptelas y componendas para alterar su opinión, este pseudoauditor carece de calidad profesional. Igual si obedece a otro tipo de intereses ajenos a los fines de la auditoría.
-    
-    Ser imparcial en los juicios que emite como auditor
-    
-    Para ser un buen profesional en esta rama, entre otras muchas características, se debe ser imparcial, esto con el propósito de poder emitir un juicio acertado y ecuánime respecto a lo que se está evaluando. El cumplimiento de esta cualidad o norma ético-moral es lo que le da validez y vigencia a la profesión de auditor, debido a que, al emitir un dictamen, éste se hace libre de cualquier presión e influencia y sin ningún sesgo ni parcialidad; el auditor sólo debe informar de lo que realmente observó. Además, debe fundamentar su opinión en las evidencias y pruebas que obtuvo con los métodos, técnicas y herramientas de auditoría que utilizó. Esto no sólo es una norma ético-moral, sino profesional y laboral.
-
-    Contar con un juicio sereno, ético y moral
-    También fue señalado en los elementos de juicio que el objetivo final de una evaluación es emitir un dictamen sobre los aspectos que se están evaluando a la luz de las técnicas que utilice el auditor. Por esta razón, es importante identificar los elementos señalados en ese punto y los criterios y obligaciones de carácter ético y moral que adquiere este profesional al emitir un dictamen, mismo que fundamenta en un juicio sereno, el cual apoya con las evidencias de que dispone y con las pruebas obtenidas con sus herramientas de evaluación.
-    
-    Acatar y hacer cumplir las normas morales y éticas
-    Parece reiterativo decir que el auditor debe acatar y hacer cumplir las normas ético-morales que regulan su actuación como profesional, lo cual se aplica invariablemente a su actuación tanto en el ámbito profesional, como en el ámbito personal y social. Esto es lo que esperan de su actuación los funcionarios y empleados de las empresas que audita, sus colegas, las asociaciones a las que pertenezca y la comunidad en general. Todos esperan que su actuación como auditor se apegue invariablemente a un estricto cumplimiento de las normas morales y éticas que regulan a la sociedad.
+    En conclusión, para ser un buen auditor, es fundamental cumplir con las normas y lineamientos establecidos. El respeto por estas normas garantiza la calidad y la credibilidad de la evaluación realizada. Ser un auditor responsable, disciplinado, confiable y ético es esencial para mantener el prestigio en la profesión y para brindar un servicio eficiente y efectivo a las empresas auditadas.
     `
   }
 }
