@@ -1,0 +1,26 @@
+.toggle-theme-button {
+  background: none;
+  border: none;
+  overflow-x: hidden;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+
+  #dark-icon {
+    width: 100%;
+  }
+
+  #light-icon {
+    width: 90%;
+    margin: 5%;
+  }
+}
+
+[data-theme="dark"] #dark-icon {
+  display: none;
+}
+[data-theme="light"] #light-icon {
+  display: none;
+}
