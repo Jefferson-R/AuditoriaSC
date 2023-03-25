@@ -3,16 +3,19 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://jefferson-r.github.io/AuditoriaSC",
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "preact": "^10.13.0"
   },
   "devDependencies": {
     "@preact/preset-vite": "^2.5.0",
+    "gh-pages": "^5.0.0",
     "sass": "^1.59.3",
     "vite": "^4.2.0"
   }

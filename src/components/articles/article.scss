@@ -24,14 +24,5 @@
 }
 
 .article-inactive {
-  animation: article-none 300ms linear forwards;
-}
-
-@keyframes article-none {
-  99% {
-    display: flex;
-  }
-  100% {
-    display: none;
-  }
+  display: none;
 }

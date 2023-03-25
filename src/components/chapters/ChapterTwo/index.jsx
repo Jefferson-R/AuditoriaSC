@@ -30,22 +30,22 @@ export function ChapterTwo () {
         <br />
       </Text>
       <ContainerArticlesRefs>
-        <ArticleRef>
+        <ArticleRef idArticle={'2-1'}>
           Definición general de auditoría
         </ArticleRef>
-        <ArticleRef>
+        <ArticleRef idArticle={'2-2'}>
           Objetivos particulares de cada tipo de auditoría
         </ArticleRef>
-        <ArticleRef>
+        <ArticleRef idArticle={'2-3'}>
           Principales áreas, actividades y resultados que se auditan
         </ArticleRef>
-        <ArticleRef>
+        <ArticleRef idArticle={'2-4'}>
           Normas generales de auditoría
         </ArticleRef>
-        <ArticleRef>
+        <ArticleRef idArticle={'2-5'}>
           Métodos, técnicas, herramientas y procedimientos de auditoría
         </ArticleRef>
-        <ArticleRef>
+        <ArticleRef idArticle={'2-6'}>
           Estructuras de organización de las empresas y áreas dedicadas...
         </ArticleRef>
       </ContainerArticlesRefs>

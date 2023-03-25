@@ -26,16 +26,16 @@ export function ChapterThree () {
       <br />
       </Text>
       <ContainerArticlesRefs>
-        <ArticleRef>
+        <ArticleRef idArticle={'3-1'}>
           Marco conceptual de la ética
         </ArticleRef>
-        <ArticleRef>
+        <ArticleRef idArticle={'3-2'}>
           Principios de axiología y valores éticos
         </ArticleRef>
-        <ArticleRef>
+        <ArticleRef idArticle={'3-3'}>
           Criterios y responsabilidades del auditor
         </ArticleRef>
-        <ArticleRef>
+        <ArticleRef idArticle={'3-4'}>
           Normas profesionales del auditor
         </ArticleRef>
       </ContainerArticlesRefs>
