@@ -2,12 +2,10 @@
   border: none;
   position: fixed;
   z-index: 1;
-  left: 0;
-  top: 0;
   border-radius: 0 0 8px 0;
   background-color: var(--primary);
-  padding: 4%;
-  box-shadow: 0 0 8px var(--secondary);
+  padding: 12px;
+  box-shadow: 0 0 8px -2px var(--secondary);
   
   svg {
     display: block;
@@ -21,3 +19,8 @@
   
 }
 
+@media (min-width: 426px) {
+  .back-button {
+    border-radius: 0 0 8px 8px;
+  }
+}

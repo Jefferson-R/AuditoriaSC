@@ -1,6 +1,8 @@
 .chapterContainer {
   width: 100%;
-  padding: 5%;
+  max-width: 532px;
+  margin: 0 auto;
+  padding: 16px;
   display: flex;
   flex-direction: column;
   gap: 16px;

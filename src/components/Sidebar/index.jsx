@@ -19,7 +19,9 @@ import { Article3_4 } from '../articles/Article3_4'
 export function Sidebar () {
   return (
     <div className="sidebar sidebar-inactive">
-      <BackButton />
+      <div className="back-button-container">
+        <BackButton />
+      </div>
       <Article1_1 />
       <Article1_2 />
       <Article1_3 />

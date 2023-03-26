@@ -1,6 +1,8 @@
 .header {
   position: relative;
   width: 100%;
+  max-width: 532px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -17,17 +19,16 @@
 }
 .header-theme-button {
   position: absolute;
-  width: 40px;
-  right: 0;
+  width: 44px;
+  right: -1px;
   top: 0;
   border-radius: 0 0 0 12px;
-  padding: 4px;
   background-color: var(--primary);
 }
 .header-title {
   position: absolute;
   margin: auto 0;
-  color: rgb(238, 230, 230);
+  color: white;
 }
 .header--image {
   width: 100%;
@@ -43,4 +44,16 @@
   border: none;
   border-radius: 4px;
   transform: translateY(1px);
+}
+
+@media (min-width: 532px) {
+  .header-title {
+    font-size: 1.16em;
+  }
+  .header--image {
+    border-radius: 0 0 12px 12px;
+  }
+  .degraded {
+    border-radius: 0 0 12px 12px;
+  }
 }

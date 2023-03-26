@@ -3,22 +3,41 @@
   top: 0;
   right: 0;
   width: 100%;
-  height: 100%;
-  padding-top: 44px;
+  height: 100vh;
   background-color: var(--primary);
   overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 .sidebar-inactive {
-  animation: reduce-sidebar 300ms linear forwards;
+  animation: reduce-sidebar 400ms linear forwards;
   transform: translateX(100%);
 }
 
+.back-button-container {
+  width: 100%;
+  height: 46px;
+  margin-bottom: 16px;
+  max-width: 532px;
+  margin: 0 auto;
+  position: relative;
+}
+
+@media (min-width: 769px) {
+  .sidebar {
+    width: 50%;
+  }
+}
+
 @keyframes reduce-sidebar {
+  0% {
+    opacity: 100%;
+  }
   99% {
     width: 100%;
   }
   100% {
     width: 0%;
+    opacity: 0%;
   }
 }

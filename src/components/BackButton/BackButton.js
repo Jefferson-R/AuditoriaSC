@@ -11,6 +11,6 @@ export function hideArticle (currentArticle, setCurrentArticle) {
   sidebar.classList.add('sidebar-inactive')
   setTimeout(() => {
     article.classList.add('article-inactive')
-  }, 300);
+  }, 400);
   main.classList.remove('main-inactive')
 }

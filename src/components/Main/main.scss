@@ -1,15 +1,30 @@
 .main {
   width: 100%;
-  height: 100%;
+  height: 100vh;
+  padding-bottom: 32px;
   overflow-x: hidden;
+  overflow-y: scroll;
 }
 
-.main-inactive {
-  animation: main-none 300ms linear forwards;
-  transform: translateX(-100%);
+@media (max-width: 768px) {
+  .main-inactive {
+    animation: main-none 400ms linear forwards;
+    transform: translateX(-100%);
+  }
+}
+@media (min-width: 769px) {
+  .main-inactive {
+    width: 50%;
+  }
 }
 
 @keyframes main-none {
+  0% {
+    opacity: 100%;
+  }
+  75% {
+    opacity: 0%;
+  }
   99% {
     display: block;
   }
