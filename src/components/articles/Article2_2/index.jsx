@@ -6,7 +6,7 @@ export function Article2_2 (){
   const img = 'https://grupoconsultorefe.com/uploads/articulos/thumbnail/SMT4NFKPKMbIIY7cRFn8NLA0IjwuEkxnvxmHirjw.jpeg'
 
   return (
-    <div id="2-2" className="article article-inactive">
+    <div id="2-2" className="article article-none">
       <Title type={3}>Objetivos particulares de cada tipo de auditoría</Title>
 
       <Text>

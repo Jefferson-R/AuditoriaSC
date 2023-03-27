@@ -9,7 +9,7 @@ export function Article1_1 (){
   const img2 = 'https://s3.amazonaws.com/ibc-portal/wp-content/uploads/2016/05/31081505/tipos-de-auditoria.jpg'
 
   return (
-    <div id="1-1" className="article article-inactive">
+    <div id="1-1" className="article article-none">
       <Title type={3}>Los antecedentes históricos de la auditoría</Title>
 
       <Text>

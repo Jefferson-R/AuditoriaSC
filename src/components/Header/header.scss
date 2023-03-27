@@ -47,13 +47,16 @@
 }
 
 @media (min-width: 532px) {
-  .header-title {
-    font-size: 1.16em;
-  }
   .header--image {
     border-radius: 0 0 12px 12px;
   }
   .degraded {
     border-radius: 0 0 12px 12px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header {
+    max-width: 644px;
   }
 }

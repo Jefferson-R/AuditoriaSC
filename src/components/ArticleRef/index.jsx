@@ -5,12 +5,12 @@ import { showArticle } from './ArticleRef'
 import './articleRef.scss'
 
 export function ArticleRef ({idArticle, children}) {
-  const {setCurrentArticle} = useContext(currentArticleContext)
+  const {currentArticle ,setCurrentArticle} = useContext(currentArticleContext)
 
   return (
     <div className="linkContainer">
       <strong><Text>{children}</Text></strong>
-      <button onClick={() => showArticle(idArticle, setCurrentArticle)}><span>Leer más</span></button>
+      <button onClick={() => showArticle(idArticle, setCurrentArticle, currentArticle)}><span>Leer más</span></button>
     </div>
   )
 }

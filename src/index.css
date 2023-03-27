@@ -25,3 +25,17 @@ body {
   height: 100vh;
   overflow-x: hidden;
 }
+
+@media (min-width: 532px) {
+  body {
+    font-size: 1.08em;
+    line-height: 1.08;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    font-size: 1.16em;
+    line-height: 1.16;
+  }
+}

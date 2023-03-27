@@ -6,7 +6,7 @@ export function Article1_4 (){
   const img = 'https://www.escuelaeuropeaexcelencia.com/wp-content/uploads/2018/12/5-Pasos-para-una-auditoria-interna-de-calidad-efectiva.jpg'
 
   return (
-    <div id="1-4" className="article article-inactive">
+    <div id="1-4" className="article article-none">
       <Title type={3}>Objetivos generales de la auditoría</Title>
 
       <Text>

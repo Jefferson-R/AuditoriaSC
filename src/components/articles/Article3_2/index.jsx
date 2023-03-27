@@ -6,7 +6,7 @@ export function Article3_2 (){
   const img = 'https://www.unesco.org/sites/default/files/styles/best_image/public/artificial-intelligence-4550606-900x400.jpg?itok=LjBmlCVb'
 
   return (
-    <div id="3-2" className="article article-inactive">
+    <div id="3-2" className="article article-none">
       <Title type={3}>Principios de axiología y valores éticos</Title>
 
       <Text>

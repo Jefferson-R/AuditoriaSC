@@ -6,7 +6,7 @@ export function Article1_3 (){
   const img = 'https://chaui201711701221087.files.wordpress.com/2017/03/auditoria-de-marca.jpg?w=640'
 
   return (
-    <div id="1-3" className="article article-inactive">
+    <div id="1-3" className="article article-none">
       <Title type={3}>Clasificación de los tipos de auditorías</Title>
 
       <Text>

@@ -7,6 +7,10 @@
   background-color: var(--primary);
   overflow-x: hidden;
   overflow-y: scroll;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 .sidebar-inactive {
@@ -25,7 +29,13 @@
 
 @media (min-width: 769px) {
   .sidebar {
-    width: 50%;
+    width: 45%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .back-button-container {
+    max-width: 644px;
   }
 }
 

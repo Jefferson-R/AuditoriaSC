@@ -6,7 +6,7 @@ export function Article1_2 (){
   const img = 'https://www.ealde.es/wp-content/uploads/2018/08/gestion-de-riesgos-auditoria.jpg'
 
   return (
-    <div id="1-2" className="article article-inactive">
+    <div id="1-2" className="article article-none">
       <Title type={3}>Conceptos básicos sobre la auditoría</Title>
 
       <Text>

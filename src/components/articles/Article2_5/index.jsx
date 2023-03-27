@@ -6,7 +6,7 @@ export function Article2_5 (){
   const img = 'https://dqsiberica.com/wp-content/uploads/2019/12/ISO_9001_3.jpg'
 
   return (
-    <div id="2-5" className="article article-inactive">
+    <div id="2-5" className="article article-none">
       <Title type={3}>Métodos, técnicas, herramientas y procedimientos de auditoría</Title>
 
       <Text>

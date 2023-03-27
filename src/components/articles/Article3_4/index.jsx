@@ -6,7 +6,7 @@ export function Article3_4 (){
   const img = 'https://image.jimcdn.com/app/cms/image/transf/none/path/sec7a247cc21dee53/image/i0683c16277d81545/version/1550962471/que-sabes-acerca-de-la-auditor%C3%ADa-tributaria-ebenezer-frank-salas.jpg'
 
   return (
-    <div id="3-4" className="article article-inactive">
+    <div id="3-4" className="article article-none">
       <Title type={3}>Normas profesionales del auditor</Title>
 
       <Text>

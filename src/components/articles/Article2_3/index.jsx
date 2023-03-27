@@ -6,7 +6,7 @@ export function Article2_3 (){
   const img = 'https://contaduriapublica.org.mx/wp-content/uploads/2019/03/shutterstock_352626623-1024x717.jpg'
 
   return (
-    <div id="2-3" className="article article-inactive">
+    <div id="2-3" className="article article-none">
       <Title type={3}>Principales áreas, actividades y resultados que se auditan</Title>
 
       <Text>

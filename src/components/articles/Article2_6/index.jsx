@@ -6,7 +6,7 @@ export function Article2_6 (){
   const img = 'https://www.laboneconsultoria.com.br/wp-content/uploads/2022/04/Classifica%C3%A7%C3%A3o-das-empresas-pelo-porte.jpg'
 
   return (
-    <div id="2-6" className="article article-inactive">
+    <div id="2-6" className="article article-none">
       <Title type={3}>Estructuras de organización de las empresas y áreas dedicadas a la auditoría</Title>
 
       <Text>

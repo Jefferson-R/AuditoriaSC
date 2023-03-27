@@ -6,7 +6,7 @@ export function Article2_1 (){
   const img = 'https://definicion.de/wp-content/uploads/2008/10/auditoria-1.jpg'
 
   return (
-    <div id="2-1" className="article article-inactive">
+    <div id="2-1" className="article article-none">
       <Title type={3}>Definición general de auditoría</Title>
 
       <Text>

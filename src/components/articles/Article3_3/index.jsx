@@ -6,7 +6,7 @@ export function Article3_3 (){
   const img = 'https://media.licdn.com/dms/image/C5622AQF19d4uxGk1Qg/feedshare-shrink_2048_1536/0/1627660339618?e=2147483647&v=beta&t=A2XreyrySPUEaWlaOoBa_eJkr_guC5uNqCrQW18qToc'
 
   return (
-    <div id="3-3" className="article article-inactive">
+    <div id="3-3" className="article article-none">
       <Title type={3}>Criterios y responsabilidades del auditor</Title>
 
       <Text>

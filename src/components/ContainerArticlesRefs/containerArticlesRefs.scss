@@ -4,3 +4,9 @@
   grid-auto-flow: row;
   gap: 12px 12px;
 }
+
+@media (min-width: 1024px) {
+  .containerArticlesRefs {
+    gap: 18px 18px;
+  }
+}

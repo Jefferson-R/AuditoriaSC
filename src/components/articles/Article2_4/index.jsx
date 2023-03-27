@@ -6,7 +6,7 @@ export function Article2_4 (){
   const img = 'https://www.rm-auditores.com.mx/imagenes/alianzas1.jpg'
 
   return (
-    <div id="2-4" className="article article-inactive">
+    <div id="2-4" className="article article-none">
       <Title type={3}>Normas generales de auditoría</Title>
 
       <Text>

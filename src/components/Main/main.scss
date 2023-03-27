@@ -4,6 +4,10 @@
   padding-bottom: 32px;
   overflow-x: hidden;
   overflow-y: scroll;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 @media (max-width: 768px) {
@@ -14,7 +18,7 @@
 }
 @media (min-width: 769px) {
   .main-inactive {
-    width: 50%;
+    width: 55%;
   }
 }
 

@@ -7,7 +7,7 @@ export function Article1_5() {
     "https://impulsotecnologico.com/wp-content/uploads/auditoria-de-redes-informaticas-madrid.jpg";
 
   return (
-    <div id="1-5" className="article article-inactive">
+    <div id="1-5" className="article article-none">
       <Title type={3}>Marco esquemático de la auditoría de sistemas computacionales</Title>
 
       <Text>

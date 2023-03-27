@@ -6,7 +6,7 @@ export function Article3_1 (){
   const img = 'https://www.esan.edu.pe/images/blog/2019/01/31/1500x844-etica-decisiones.jpg'
 
   return (
-    <div id="3-1" className="article article-inactive">
+    <div id="3-1" className="article article-none">
       <Title type={3}>Marco conceptual de la ética</Title>
 
       <Text>
